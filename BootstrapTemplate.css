@@ -1,0 +1,141 @@
+/**
+Important notes:
+
+*The template relies on Bootstrap to function and make design a lot easier. If you're not familiar with
+  Boostrap, here is a link to a good tutorial:
+    https://www.w3schools.com/bootstrap4/default.asp
+
+**/
+html {
+  font-family:'Open Sans', arial; /*arial is the backup font*/
+}
+
+html, body {
+  height:100%;
+  color:white;
+}
+
+body {
+  /**
+  background: url('https://adminfinance.umw.edu/facilities/files/2018/09/umw-11132017-027.jpg') no-repeat center center fixed;
+  **/
+  background: url('images/BG.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* header style */
+
+.header {
+  background-color: #0D3559;
+  color:white;
+  margin-top:0%;
+}
+
+.header h1 {
+  padding-top:2%;
+}
+
+/* dropdown menu button */
+
+.header .btn {
+  color:white;
+  margin-right:.5%;
+}
+
+.header .dropdown-menu {
+  margin-top:0%;
+  background-color:#0D3559;
+  opacity:0.9;
+  color:white;
+}
+
+.header .dropdown-item {
+  margin-top:1%;
+  color:white;
+}
+
+/* alters the color when focusing or hovering over dropdown menu items */
+
+.header .dropdown-menu > a:focus, .dropdown-menu > a:hover {
+  background-color:grey;
+}
+
+.header .dropdown-divider {
+  color: grey;
+}
+
+/* main container / jumbotron */
+
+.main {
+  margin-top:5%;
+  margin-left:17%;
+  height: 80%;;
+  width: 70%;
+  background-color:#0D3559;
+  opacity:0.9;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #4D6B8B;
+	z-index: 1000;
+	margin-top:0%;
+	width: 100%;
+	
+}
+
+.topnav .btn{
+	color:white;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 8px 20px;
+	text-decoration: none;
+	font-size: 16px;
+	width: 16.6666666666%;
+}
+
+.topnav a:hover {
+	background-color: #686663;
+	color: white;
+}
+
+
+.btn {
+	border: none;
+	background-color:#0D3559;
+	padding: 14px 28px;
+	font-size 16px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.submit {
+	color: white;
+}
+
+.submit:hover{
+	color:#e3e3e3;
+}
+.submit:active{
+	color:#bababa;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0 1em;
+}
+td {
+	padding-top: .5em;
+	padding-bottom:.5em;
+	padding-right: 1em;
+}
